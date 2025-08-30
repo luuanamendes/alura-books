@@ -3,6 +3,7 @@
 @import url("carrossel.css");
 @import url("topicos.css");
 @import url("contato.css");
+@import url("rodape.css");
 
 :root{
     --cor-de-fundo: #EBECEE;
@@ -11,7 +12,6 @@
     --azul: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --font-principal: "Poppins";
     --azul2: #002F52;
-
 }
 
 body{
