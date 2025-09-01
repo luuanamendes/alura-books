@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,11 +13,11 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
     <header class="cabeçalho">
         <div class="container">
@@ -42,10 +43,16 @@
                     <a href="#" class="lista-menu_link">Design & UX</a>
                 </li>
             </ul>
-            <img src="assets/img/Logo.svg" alt="Logo da Alurabooks">
+            <img src="assets/img/Logo.svg" alt="Logo da Alurabooks" class="menu-logo">
+            <h1 class="container_titulo"><b class="container_titulo-negrito">Alura</b>Books</h1>
         </div>
+        <ul class="opções">
+            <li class="opções_item">Categorias</li>
+            <li class="opções_item"><a href="#" class="opções_link">Favoritos</a></li>
+            <li class="opções_item"><a href="#" class="opções_link">Minha Estante</a></li>
+        </ul>
         <div class="container">
-            <a href="#"><img src="assets/img/Favoritos.svg" alt="Meus favoritos" class="container_imagem"></a>
+            <a href="#"><img src="assets/img/Favoritos.svg" alt="Meus favoritos" class="container_imagem container_imagem-heart"></a>
             <a href="#"><img src="assets/img/Compras.svg" alt="Carrinho de compras" class="container_imagem"></a>
             <a href="#"><img src="assets/img/Usuario.svg" alt="Meu Perfil" class="container_imagem"></a>
         </div>
@@ -163,11 +170,11 @@
         <p class="contato_texto">Atualizações de e-books, novos livros, promoções e outros.</p>
         <input type="email" placeholder="Cadastre seu email" class="contato_email">
     </section>
-    <hr/>
+    <hr />
     <footer class="rodapé">
         <h2 class="rodapé_texto">Grupo Alura</h2>
     </footer>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
@@ -180,4 +187,5 @@
         });
     </script>
 </body>
+
 </html>
