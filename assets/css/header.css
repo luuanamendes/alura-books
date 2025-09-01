@@ -101,4 +101,13 @@
     .menu-logo{
         margin-left: 1em;
     }
+
+    .opções_botão:checked ~ .lista-menu{
+        display:block;
+        width: auto;
+    }
+    
+    .opções_botão{
+        display: none;
+    }
 }
