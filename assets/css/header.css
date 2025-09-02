@@ -64,7 +64,13 @@
     display: none;
 }
 
+.container_botao:checked ~ .container_rotulo > .cabeçalho_menu-hamburguer{
+    background-image: url(../img/Menu\ Aberto.svg);
+}
 
+.container_botao:checked ~ .container_rotulo{
+    background: var(--azul);
+}
 
 @media screen and (min-width: 1024px) {
 
@@ -115,6 +121,25 @@
     .opções_botão {
         display: none;
     }
+
+    .opções_botão:checked ~ .opções_rotulo > .opções_item{
+        color: var(--branco);
+        background: var(--azul);
+    }
+
+    .opções_item{
+        padding: 2.3em 1em;
+    }
+
+    .lista-menu_item:hover{
+        background: var(--azul);
+    }
+
+    .lista-menu_item:hover > .lista-menu_link{
+        -webkit-text-fill-color: var(--branco);
+        text-decoration: none;
+    }
+
 }
 
 .container_texto {
